@@ -3,22 +3,12 @@ import sys
 from math import sqrt
 from PIL import Image
 
-print (sys.argv[1])
-exit()
-
-
-
 if len(sys.argv) < 2:
 	print("Prints average color (RGB) of input image")
 	print("Usage: %s <input>" % sys.argv[0])
 	exit(1)
-
-
-
-
 inp = Image.open(sys.argv[1]).convert('RGBA')
 ind = inp.load()
-
 cl = ([], [], [])
 for x in range(inp.size[0]):
 	for y in range(inp.size[1]):
