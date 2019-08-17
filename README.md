@@ -5,7 +5,7 @@ this is a revised version of just the dumpnodes mod and autogenerating-colors.tx
 of https://github.com/minetest/minetestmapper repo..
 
 1. install dumpnodes as a mod on your server
-2. enable it and add dumpnodes to your trusted mods list or temp. disable the mod security to allow dumpnodes to writ files.
+2. enable it and add dumpnodes to your trusted mods list or temp. disable the mod security to allow dumpnodes to write files.
 2. start server and use chat command /dumpnodes
 3. exit server
 4. Make shure to disable this mod in your server for it does not have any privs and any one can exicute it...(needs privs added)
