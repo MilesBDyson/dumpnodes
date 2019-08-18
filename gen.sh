@@ -1,7 +1,7 @@
 #!/bin/bash -e
 AVGCOLOR_PATH=avgcolors.py
 GAME_PATH=../../
-MODS_PATH=../../  # path to "mods" folder, only set if you have loaded mods
+MODS_PATH=../  # path to "mods" folder, only set if you have loaded mods
 NODESTXT_PATH=./nodes.txt
 COLORSTXT_PATH=./colors.txt
 
